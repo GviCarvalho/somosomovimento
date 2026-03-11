@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forró Haus — Somos o Movimento</title>
     <meta name="description" content="Infraestrutura cultural a serviço da sociedade. Forró Haus constrói pontes entre artistas, comunidades e territórios através da música e dos encontros reais.">
-    <link rel="icon" type="image/webp" href="images/logo.webp">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1524,32 +1524,28 @@
     <!-- ===== IMPRESSUM ===== -->
     <section class="impressum" id="impressum">
         <div class="container">
-            <h2>Impressum</h2>
+            <h2 data-i18n="impressum_title">Impressum</h2>
             <div class="impressum-content">
-                <p><strong>Angaben gemäß § 5 TMG</strong></p>
-                <p>Das Forró Haus e.V.<br>
-                Böblingerstrasse 86<br>
-                70199 Stuttgart<br>
-                Vereinsnummer: 725235</p>
+                <p><strong data-i18n="impressum_legal_basis">Angaben gemäß § 5 TMG</strong></p>
+                <p data-i18n="impressum_org_address">Das Forró Haus e.V.<br>Böblingerstrasse 86<br>70199 Stuttgart<br>Vereinsnummer: 725235</p>
                 
-                <h3>Vertreten durch</h3>
+                <h3 data-i18n="impressum_represented_title">Vertreten durch</h3>
                 <p>Jaduam Omar Pasqualini</p>
                 
-                <h3>Kontakt</h3>
-                <p>Telefon: +49 (0) 177 599 5632<br>
-                E-Mail: <a href="mailto:info@forrohaus.org" style="color: var(--green);">info@forrohaus.org</a></p>
+                <h3 data-i18n="impressum_contact_title">Kontakt</h3>
+                <p data-i18n="impressum_contact_text">Telefon: +49 (0) 177 599 5632<br>E-Mail: <a href="mailto:info@forrohaus.org" style="color: var(--green);">info@forrohaus.org</a></p>
                 
-                <h3>Streitschlichtung</h3>
-                <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+                <h3 data-i18n="impressum_dispute_title">Streitschlichtung</h3>
+                <p data-i18n="impressum_dispute_text">Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
                 
-                <h3>Haftung für Inhalte</h3>
-                <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
+                <h3 data-i18n="impressum_liability_content_title">Haftung für Inhalte</h3>
+                <p data-i18n="impressum_liability_content_text">Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
                 
-                <h3>Haftung für Links</h3>
-                <p>Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.</p>
+                <h3 data-i18n="impressum_liability_links_title">Haftung für Links</h3>
+                <p data-i18n="impressum_liability_links_text">Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.</p>
                 
-                <h3>Urheberrecht</h3>
-                <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.</p>
+                <h3 data-i18n="impressum_copyright_title">Urheberrecht</h3>
+                <p data-i18n="impressum_copyright_text">Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.</p>
             </div>
         </div>
     </section>
@@ -1581,8 +1577,8 @@
                 </p>
                 <p class="footer-legal">
                     &copy; 2026 Forró Haus e.V. — <span data-i18n="footer_rights">Todos os direitos reservados.</span>
-                    &nbsp;|&nbsp; <a href="#impressum">Impressum</a>
-                    &nbsp;|&nbsp; <a href="https://www.forrohaus.org/datenschutz" target="_blank">Datenschutz</a>
+                    &nbsp;|&nbsp; <a href="#impressum" data-i18n="footer_legal_impressum">Impressum</a>
+                    &nbsp;|&nbsp; <a href="https://www.forrohaus.org/datenschutz" target="_blank" data-i18n="footer_legal_privacy">Datenschutz</a>
                 </p>
             </div>
         </div>
@@ -1721,8 +1717,24 @@
             dl_gabriel: "A história de um artista",
             dl_valentina: "A história de uma dançarina",
             downloads_btn: "Cadastre-se para receber todos os documentos",
+            impressum_title: "Informações Legais",
+            impressum_legal_basis: "Informações conforme § 5 TMG",
+            impressum_org_address: "Forró Haus e.V.<br>Böblingerstrasse 86<br>70199 Stuttgart<br>Número da associação: 725235",
+            impressum_represented_title: "Representado por",
+            impressum_contact_title: "Contato",
+            impressum_contact_text: "Telefone: +49 (0) 177 599 5632<br>E-mail: <a href=\"mailto:info@forrohaus.org\" style=\"color: var(--green);\">info@forrohaus.org</a>",
+            impressum_dispute_title: "Resolução de conflitos",
+            impressum_dispute_text: "Não estamos dispostos nem obrigados a participar de processos de resolução de litígios perante uma entidade de arbitragem de consumidores.",
+            impressum_liability_content_title: "Responsabilidade por conteúdo",
+            impressum_liability_content_text: "Como prestador de serviços, somos responsáveis pelo nosso próprio conteúdo nestas páginas, de acordo com as leis gerais, conforme § 7 Abs.1 TMG. De acordo com §§ 8 a 10 TMG, no entanto, não somos obrigados a monitorar informações de terceiros transmitidas ou armazenadas, nem a investigar circunstâncias que indiquem atividade ilegal.",
+            impressum_liability_links_title: "Responsabilidade por links",
+            impressum_liability_links_text: "Nossa oferta contém links para sites externos de terceiros, sobre cujo conteúdo não temos qualquer influência.",
+            impressum_copyright_title: "Direitos autorais",
+            impressum_copyright_text: "Os conteúdos e obras criados pelos operadores destas páginas estão sujeitos à legislação alemã de direitos autorais.",
             footer_location: "Stuttgart, Alemanha — Recife, Brasil",
-            footer_rights: "Todos os direitos reservados."
+            footer_rights: "Todos os direitos reservados.",
+            footer_legal_impressum: "Informações legais",
+            footer_legal_privacy: "Política de privacidade"
         },
         de: {
             nav_encontro: "Treffen",
@@ -1810,8 +1822,24 @@
             dl_gabriel: "Die Geschichte eines Künstlers",
             dl_valentina: "Die Geschichte einer Tänzerin",
             downloads_btn: "Registriere dich, um alle Dokumente zu erhalten",
+            impressum_title: "Impressum",
+            impressum_legal_basis: "Angaben gemäß § 5 TMG",
+            impressum_org_address: "Das Forró Haus e.V.<br>Böblingerstrasse 86<br>70199 Stuttgart<br>Vereinsnummer: 725235",
+            impressum_represented_title: "Vertreten durch",
+            impressum_contact_title: "Kontakt",
+            impressum_contact_text: "Telefon: +49 (0) 177 599 5632<br>E-Mail: <a href=\"mailto:info@forrohaus.org\" style=\"color: var(--green);\">info@forrohaus.org</a>",
+            impressum_dispute_title: "Streitschlichtung",
+            impressum_dispute_text: "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+            impressum_liability_content_title: "Haftung für Inhalte",
+            impressum_liability_content_text: "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+            impressum_liability_links_title: "Haftung für Links",
+            impressum_liability_links_text: "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.",
+            impressum_copyright_title: "Urheberrecht",
+            impressum_copyright_text: "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.",
             footer_location: "Stuttgart, Deutschland — Recife, Brasilien",
-            footer_rights: "Alle Rechte vorbehalten."
+            footer_rights: "Alle Rechte vorbehalten.",
+            footer_legal_impressum: "Impressum",
+            footer_legal_privacy: "Datenschutz"
         },
         en: {
             nav_encontro: "Meeting",
@@ -1899,8 +1927,24 @@
             dl_gabriel: "The story of an artist",
             dl_valentina: "The story of a dancer",
             downloads_btn: "Register to receive all documents",
+            impressum_title: "Legal Notice",
+            impressum_legal_basis: "Information according to § 5 TMG",
+            impressum_org_address: "Forró Haus e.V.<br>Böblingerstrasse 86<br>70199 Stuttgart<br>Association number: 725235",
+            impressum_represented_title: "Represented by",
+            impressum_contact_title: "Contact",
+            impressum_contact_text: "Phone: +49 (0) 177 599 5632<br>Email: <a href=\"mailto:info@forrohaus.org\" style=\"color: var(--green);\">info@forrohaus.org</a>",
+            impressum_dispute_title: "Dispute resolution",
+            impressum_dispute_text: "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+            impressum_liability_content_title: "Liability for content",
+            impressum_liability_content_text: "As a service provider, we are responsible for our own content on these pages according to general laws pursuant to § 7 para.1 TMG. According to §§ 8 to 10 TMG, however, we are not obliged to monitor transmitted or stored third-party information or investigate circumstances that indicate illegal activity.",
+            impressum_liability_links_title: "Liability for links",
+            impressum_liability_links_text: "Our offer contains links to external third-party websites whose content we cannot influence.",
+            impressum_copyright_title: "Copyright",
+            impressum_copyright_text: "The content and works created by the site operators on these pages are subject to German copyright law.",
             footer_location: "Stuttgart, Germany — Recife, Brazil",
-            footer_rights: "All rights reserved."
+            footer_rights: "All rights reserved.",
+            footer_legal_impressum: "Legal notice",
+            footer_legal_privacy: "Privacy policy"
         }
     };
 
@@ -1952,6 +1996,8 @@
     const savedLang = localStorage.getItem('fh_lang');
     if (savedLang && translations[savedLang]) {
         setLang(savedLang);
+    } else {
+        setLang('pt');
     }
     </script>
 
